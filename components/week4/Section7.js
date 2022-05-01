@@ -23,7 +23,9 @@ export default function Section7() {
           <Text style={{ fontSize: 15, fontWeight: 'bold' }}>Standard Twin Room</Text>
           <View>
             <Text style={{ fontSize: 15, fontWeight: 'bold', color: 'tomato' }}>$399.99</Text>
-            <Text style={{ fontSize: 12, color: '#478d9f', marginTop: 3 }}>Hurry Up! This is your last room!</Text>
+            <Text style={{ fontSize: 12, color: '#478d9f', marginTop: 3 }}>
+              Hurry Up! This is your last room!
+            </Text>
           </View>
         </View>
       </View>

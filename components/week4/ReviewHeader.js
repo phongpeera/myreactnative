@@ -46,11 +46,11 @@ export default function ReviewHeader() {
               </View>
             </View>
             <View style={{ marginLeft: 10 }}>
-              <ReviewScore widthActual={10} widthRemain={140}/>
-              <ReviewScore widthActual={10} widthRemain={140}/>
-              <ReviewScore widthActual={50} widthRemain={100}/>
-              <ReviewScore widthActual={60} widthRemain={90}/>
-              <ReviewScore widthActual={20} widthRemain={130}/>
+              <ReviewScore widthActual={10} widthRemain={140} />
+              <ReviewScore widthActual={10} widthRemain={140} />
+              <ReviewScore widthActual={50} widthRemain={100} />
+              <ReviewScore widthActual={60} widthRemain={90} />
+              <ReviewScore widthActual={20} widthRemain={130} />
             </View>
           </View>
           <Text style={{ fontSize: 12, fontWeight: 'bold', textAlign: 'right' }}>25 Ratings</Text>

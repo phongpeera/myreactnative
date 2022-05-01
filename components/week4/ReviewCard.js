@@ -14,10 +14,7 @@ export default function ReviewCard(props) {
       }}>
       <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
         <View style={{ flexDirection: 'row' }}>
-          <Image
-            source={props.image}
-            style={{ width: 35, height: 35, borderRadius: 35 / 2 }}
-          />
+          <Image source={props.image} style={{ width: 35, height: 35, borderRadius: 35 / 2 }} />
           <View style={{ paddingLeft: 5 }}>
             <Text style={{ fontSize: 15 }}>{props.name}</Text>
             <View style={{ flexDirection: 'row' }}>

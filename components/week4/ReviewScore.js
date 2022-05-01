@@ -11,7 +11,7 @@ export default function ReviewScore(props) {
           backgroundColor: 'tomato',
           borderColor: 'tomato',
           borderWidth: 1,
-          width: props.widthActual
+          width: props.widthActual,
         }}
       />
       <View
@@ -21,7 +21,7 @@ export default function ReviewScore(props) {
           backgroundColor: '#f5f5f5',
           borderColor: '#f5f5f5',
           borderWidth: 1,
-          width: props.widthRemain
+          width: props.widthRemain,
         }}
       />
     </View>

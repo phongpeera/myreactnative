@@ -1,17 +1,19 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar'
+import { Button, StyleSheet, Text, View } from 'react-native'
+import { useNavigation } from '@react-navigation/native'
 
 export default function Ex12() {
+  const navigation = useNavigation()
   return (
-    <View style={{ flex: 1,  flexDirection: 'row'}}>
-      <View style={{ flex : 1 , backgroundColor : '#4A90E2', alignSelf: 'stretch' }}>    
+    <View style={{ flex: 1 }}>
+      <View style={{ flex: 1, flexDirection: 'row' }}>
+        <View style={{ flex: 1, backgroundColor: '#4A90E2', alignSelf: 'stretch' }}></View>
+        <View style={{ flex: 1, backgroundColor: '#50E3C2', alignSelf: 'stretch' }}></View>
+        <View style={{ flex: 1, backgroundColor: '#9013FE', alignSelf: 'stretch' }}></View>
       </View>
-      <View style={{ flex : 1 , backgroundColor : '#50E3C2' , alignSelf: 'stretch' }}>    
-      </View>
-      <View style={{ flex : 1 , backgroundColor : '#9013FE', alignSelf: 'stretch' }}>    
-      </View>
+      <Button title="Back" onPress={() => navigation.navigate('Ex1')} />
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -21,4 +23,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+})

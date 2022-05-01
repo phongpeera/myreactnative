@@ -89,7 +89,7 @@ export default function Bmi() {
       {/* <Button title="Calculate" onPress={onPressButton}></Button> */}
       <TouchableOpacity onPress={onPressButton}>
         <View style={{ padding: 20, backgroundColor: 'blue', borderRadius: 40 }}>
-          <Text style={{ fontSize: 30, textAlign: 'center', color: 'white'}}>Calculate</Text>
+          <Text style={{ fontSize: 30, textAlign: 'center', color: 'white' }}>Calculate</Text>
         </View>
       </TouchableOpacity>
     </View>

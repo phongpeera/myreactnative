@@ -56,10 +56,14 @@ export default function Event(props) {
                   flexDirection: 'row',
                 }}>
                 <View>
-                <Text style={{ fontSize: 16, textAlign: 'center', color: 'red' }}>{item.month}</Text>
-                  <Text style={{ fontSize: 13, textAlign: 'center', color: 'gray' }}>{item.date}</Text>
+                  <Text style={{ fontSize: 16, textAlign: 'center', color: 'red' }}>
+                    {item.month}
+                  </Text>
+                  <Text style={{ fontSize: 13, textAlign: 'center', color: 'gray' }}>
+                    {item.date}
+                  </Text>
                 </View>
-                <View style={{ marginLeft: 10}}>
+                <View style={{ marginLeft: 10 }}>
                   <Text style={{ fontSize: 16 }}>{item.title}</Text>
                   <Text style={{ fontSize: 12, color: 'gray' }}>{item.datetime}</Text>
                   <Text style={{ fontSize: 12, color: 'gray' }}>{item.place}</Text>

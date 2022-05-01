@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Card() {
   return (
-    <View style={{ }}>
+    <View style={{}}>
       <View style={{ flexDirection: 'row', paddingLeft: 20 }}>
         <Image
           source={require('../../assets/week3/profile-2.jpg')}
@@ -17,7 +17,7 @@ export default function Card() {
       <View style={{ flexDirection: 'row', marginVertical: 10 }}>
         <Image
           source={require('../../assets/week3/trip-2.jpg')}
-          style={{ flex: 1, resizeMode: 'cover', aspectRatio: 16/9 }}
+          style={{ flex: 1, resizeMode: 'cover', aspectRatio: 16 / 9 }}
         />
       </View>
       <View style={{ paddingHorizontal: 10 }}>

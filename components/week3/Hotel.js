@@ -13,13 +13,17 @@ export default function Hotel() {
       </View>
       <View style={{ marginTop: 10, flexDirection: 'row' }}>
         <FontAwesome name="map-marker" size={32} color="tomato" />
-        <Text style={{ color: 'gray', fontSize: 20, paddingTop: 10, paddingLeft: 5 }}>553 Cislason Radial</Text>
+        <Text style={{ color: 'gray', fontSize: 20, paddingTop: 10, paddingLeft: 5 }}>
+          553 Cislason Radial
+        </Text>
       </View>
       <View style={{ marginTop: 5 }}>
-        <Text style={{ fontSize: 25, fontWeight: 'bold', paddingTop: 10, paddingLeft: 5 }}>Boston Hotel</Text>
+        <Text style={{ fontSize: 25, fontWeight: 'bold', paddingTop: 10, paddingLeft: 5 }}>
+          Boston Hotel
+        </Text>
       </View>
-      <View style={{ marginTop: 10, flexDirection: 'row', justifyContent: 'space-between'}}>
-        <View style={{ flexDirection: 'row'}}>
+      <View style={{ marginTop: 10, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <View style={{ flexDirection: 'row' }}>
           <FontAwesome name="star" size={20} color="orange" />
           <FontAwesome name="star" size={20} color="orange" />
           <FontAwesome name="star" size={20} color="orange" />

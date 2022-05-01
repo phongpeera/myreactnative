@@ -21,10 +21,17 @@ export default function Section8() {
           </View>
         </View>
       </View>
-      <View style={{ flexDirection: 'row', alignSelf: 'center'}}>
-        {/* <Button title="Book Now" color="tomato" /> */}
-        <TouchableOpacity style={{ backgroundColor: '#e5624e', width: 100, height: 45, borderRadius: 10, justifyContent: 'center', alignItems: 'center' }} >
-          <Text style={{ color: 'white', fontSize: 15, fontWeight: 'bold'}}>Book Now</Text>
+      <View style={{ flexDirection: 'row', alignSelf: 'center' }}>
+        <TouchableOpacity
+          style={{
+            backgroundColor: '#e5624e',
+            width: 100,
+            height: 45,
+            borderRadius: 10,
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}>
+          <Text style={{ color: 'white', fontSize: 15, fontWeight: 'bold' }}>Book Now</Text>
         </TouchableOpacity>
       </View>
     </View>

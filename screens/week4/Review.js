@@ -8,7 +8,7 @@ export default function Review() {
     <ScrollView>
       <View style={{ flex: 1, marginTop: 50 }}>
         <View style={{ marginHorizontal: 15 }}>
-          <ReviewHeader/>
+          <ReviewHeader />
           <ReviewCard
             image={require('../../assets/week3/profile-3.jpg')}
             name="Grigoriy Kozhukhov"

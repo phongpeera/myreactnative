@@ -11,7 +11,6 @@ export default function Travel() {
   return (
     <ScrollView>
       <View style={{ flex: 1, paddingTop: 50 }}>
-        {/* <Text> Week 3 </Text> */}
         <Menu />
         <Card />
         <Hotel />

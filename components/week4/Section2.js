@@ -22,7 +22,9 @@ export default function Section2() {
         },
         flexDirection: 'column',
       }}>
-      <Text style={{ fontSize: 20, fontWeight: 'bold', textAlign: 'center' }}>Hilton San Francisco</Text>
+      <Text style={{ fontSize: 20, fontWeight: 'bold', textAlign: 'center' }}>
+        Hilton San Francisco
+      </Text>
       <View style={{ flexDirection: 'row', alignSelf: 'center' }}>
         <FontAwesome name="star" size={15} color="orange" />
         <FontAwesome name="star" size={15} color="orange" />
