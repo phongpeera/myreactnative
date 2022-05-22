@@ -9,6 +9,9 @@ import HomeStack from './HomeStack'
 const Tab = createBottomTabNavigator()
 
 export default function BottomTab() {
+  const hello = (a,b,c) => {
+    return (a+b)/2;
+  }
   return (
     <Tab.Navigator
       screenOptions={{ tabBarActiveTintColor: 'tomato', tabBarInactiveTintColor: 'gray' }}>

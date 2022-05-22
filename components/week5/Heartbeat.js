@@ -7,6 +7,9 @@ export default function Heartbeat() {
   const onPressHeart = () => {
     setHeart(Number(heart) + 1)
   }
+  const [firstName, setFirstName] = useState('phongpeera')
+  const [lastName, setLastName] = useState('luangpinij')
+  console.log(firstName, lastName)
   return (
     <View style={{ marginTop: 20, flexDirection: 'row', justifyContent: 'space-around' }}>
       <View style={{ justifyContent: 'center', marginTop: 15 }}>
