@@ -4,6 +4,7 @@ import { FontAwesome } from '@expo/vector-icons'
 import { useNavigation, useRoute } from '@react-navigation/native'
 import BookStorage from '../../storages/BookStorage'
 import BookLaravel from '../../services/BookLaravel'
+import UploadArea from "../../components/week12/UploadArea";
 
 export default function BookForm() {
   const [id, setId] = useState('_' + Math.random().toString(36).substring(2, 9))
@@ -66,6 +67,7 @@ export default function BookForm() {
           value={image}
           onChangeText={(text) => setImage(text)}
         />
+        <UploadArea image={image} setImage={setImage} />
       </ScrollView>
       <Button title="SAVE" color="tomato" onPress={saveBook} />
     </KeyboardAvoidingView>
