@@ -1,4 +1,4 @@
-const url_endpoint = "http://localhost:8080/laravel8/public/api/book";
+const url_endpoint = "http://localhost:8080/laravel8/public/api/location";
 
 const getItems = async () => {
   try {
@@ -21,6 +21,7 @@ const getItemDetail = async (item) => {
 };
 
 const storeItem = async (item) => {
+    console.log(item)
   try {
     let body = {
       method: "POST",
@@ -66,3 +67,4 @@ const destroyItem = async (item) => {
 };
 
 export default { getItems, getItemDetail , storeItem , updateItem , destroyItem};
+
