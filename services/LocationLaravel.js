@@ -1,4 +1,4 @@
-const url_endpoint = "http://localhost:8080/laravel8/public/api/location";
+const url_endpoint = "http://203.150.107.140:8080/api/location";
 
 const getItems = async () => {
   try {

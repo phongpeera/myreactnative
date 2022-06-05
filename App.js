@@ -1,10 +1,13 @@
 import { NavigationContainer } from '@react-navigation/native'
 import RootStack from './navigations/RootStack'
+import { AuthContext, AuthContextProvider } from './hooks/AuthContextProvider'
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <RootStack />
-    </NavigationContainer>
+    <AuthContextProvider>
+      <NavigationContainer>
+        <RootStack />
+      </NavigationContainer>
+    </AuthContextProvider>
   )
 }
