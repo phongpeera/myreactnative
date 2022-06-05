@@ -1,6 +1,7 @@
-const url_login = "http://203.150.107.140:8080/api/sanctum/token";
-const url_register =  "http://203.150.107.140:8080/api/sanctum/token/register";
-const url_user = "http://203.150.107.140:8080/api/user";
+import { APP_URL } from "@env";
+const url_login = APP_URL+"/api/sanctum/token";
+const url_register = APP_URL+"/api/sanctum/token/register";
+const url_user = APP_URL+"/api/user";
 
 const login = async (item) => {
   try {

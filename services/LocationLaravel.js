@@ -1,4 +1,5 @@
-const url_endpoint = "http://203.150.107.140:8080/api/location";
+import { APP_URL } from "@env";
+const url_endpoint = APP_URL+"/api/location";
 
 const getItems = async () => {
   try {
